@@ -1,3 +1,7 @@
+form {
+  position: relative;
+}
+
 input {
   position: relative;
   float: left;
@@ -12,6 +16,7 @@ input::after {
 }
 
 div {
+  position: relative;
   float: left;
   width: 100%;
   min-height: 38px;
@@ -21,4 +26,9 @@ div {
 div::after {
   content: '';
   clear: both;
+}
+
+.absolute {
+  position: absolute;
+  z-index: 2000;
 }
