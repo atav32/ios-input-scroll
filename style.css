@@ -1,5 +1,5 @@
 form {
-  position: relative;
+  position: fixed;
 }
 
 input {
@@ -30,5 +30,7 @@ div::after {
 
 .absolute {
   position: absolute;
-  z-index: 2000;
+  -webkit-transform: translate(1px);
+  transform: translate(1px);
+  //z-index: 2000;
 }
