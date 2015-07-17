@@ -5,3 +5,20 @@ input {
   margin: 10px 0;
   display: block;
 }
+
+input::after {
+  content: '';
+  clear: both;
+}
+
+div {
+  float: left;
+  width: 100%;
+  min-height: 38px;
+  border: 1px solid black;
+}
+
+div::after {
+  content: '';
+  clear: both;
+}
