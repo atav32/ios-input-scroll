@@ -1,4 +1,5 @@
 input {
+  position: relative;
   float: left;
   clear: left;
   margin: 10px 0;
