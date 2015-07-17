@@ -1,5 +1,6 @@
 input {
   float: left;
+  clear: left;
   margin: 10px 0;
   display: block;
 }
